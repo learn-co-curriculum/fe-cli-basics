@@ -8,4 +8,4 @@ Mac users can practice these commands directly in Terminal per the instructions 
 
 <iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/s5S_2BdrMJE?rel=0" frameborder="0" allowfullscreen></iframe>
 
-<a href='https://learn.co/lessons/fe-cli-basics' data-visibility='hidden'>View this lesson on Learn.co</a>
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/fe-cli-basics' title='Command Line Basics ~ 20 min'>Command Line Basics ~ 20 min</a> on Learn.co and start learning to code for free.</p>
