@@ -52,19 +52,19 @@ Another highly used command satisifies the ability to be able to create new dire
 
 It is worth noting that we didn't use any spaces in the filename from the exmaple above. In fact space will read as the creation of separate file names in the case of `mkdir my awesome project`. For this reason we always use hyphens `-` or underscores `_` in place of spaces in filenames or so-called camel case such as `myAwesomeProject`. If you absolutely insist on using spaces in filenames you can use the escape character `\` in front of any spaces such as: `mkdir my\ awesome\ project`. It is a best practice however to keep it simple and clean by using `-`, or `_`. Also pick a convention and stick with it. For me I always use hyphens. so I named my folder: `mkdir my-awesome-project`.
 
-### Creating New Files
+### Creating
 
 Another high use command is the "touch" command for creating files. To remember this one I always think of Michelangelo's painting The Creation of Adam. This famous work shows God outstretching his arm reaching from the heavens and with his fingertip he creates the life of Adam. This command is as follows: "touch" followed by the "filename" such as: `touch filename`.
 
 Previously we created a folder called "my-awesome-project", let's move into that folder `cd my-awesome-project` and create a new file `touch index.html`. Now if we type `ls` we will see our new files index.html exists in the current directory.
 
-### Opening Files For Viewing
+### Opening
 
 To open a file in it's default program we use the "open" command followed by the "filename". so if we wanted to open our index file in the browser we would type: `open index.html`. The open command accepts as its argument the relative path to the file you wish to open. Based on the file extension being ".html" the computer knew to open this particular file in a web browser. If the file extension had been something else like ".txt" it would have opened in a text editor instead.
 
 This index.html file is currently empty (there is no code yet) so it displays a blank window in the browser. Go ahead and close this browser window and go back into Terminal.
 
-### Removing Files and Directories 
+### Removing 
 
 A powerful command that you should not take lightly is "rm" which stands for remove. This command accepts as its argument the relative path to the file you wish to remove. For example if we wanted to remove our newly created index.html file we would type: `rm index.html`. Now when we run the `ls` list command we can see the index file is gone.
 
@@ -73,17 +73,15 @@ To remove directories we must include the "-r" flag that tells the computer to r
 
 To remove our "my-awesome-project" folder we type: `rm -rf my-awesome-project`. After typing `ls` list command you will note that the "my-awesome-project" folder is now gone.
 
-### Copying Files and Directories
+### Copying
 
 To demonstrate how to copy (duplicate) files and directories let's first create some fresh content. Start by typing `mkdir another-awesome-project`. Then navigate into that folder `cd another-awesome-project`. Then create a new index file `touch index.html`.
 
 Now let's make a copy of our index page. To make a copy we use the "cp" command followed by two arguments the first being the relative path of the file to be copied and the second argument is the relative path of where you would like the file to be copied to. For example if we wanted to simply copy the index file into the same folder we are in now we would type `cp index.html indexcopy.html`. Notice that using a keyboard space indicates a separation of one argument to the next.
 
-### Moving and Renaming Files and Directories
+### Moving and Renaming
 
-WIP...
-
-
+The `mv` command allows us to move files, rename them, or both simultaneously. Let's say we wanted to move our indexcopy.html file into the parent folder and also rename it to index3.html. We can do so by using the mv command. `mv indexcopy.html index3.html`. If however you wanted to keep the name the same and only move the file you could just specify only the relative path of the folder location: `mv indexcopy.html ../`. Now to prove our file has really been moved and renamed we can move into the parent folder `cd ..`. Then `ls` to list out all the files and folders. Here we will see our file `index3.html`.
 
 ## Summary
 
