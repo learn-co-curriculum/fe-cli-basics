@@ -22,7 +22,6 @@ Watch the video below if you are unfamiliar with the command line. It will walk 
 
 *Note: Mac users can practice these commands directly in Terminal per the instructions in the video. Windows users may download and install [Babun from here](http://babun.github.io/) instead. This app is an alternative to Terminal and will allow Windows users to type in the same Unix BASH commands from the following video and text below.*
 
-~ 20 min
 <iframe width="640" height="480" src="//www.youtube-nocookie.com/embed/s5S_2BdrMJE?rel=0" frameborder="0" allowfullscreen></iframe>
 
 ### Launching Terminal
@@ -80,7 +79,11 @@ To demonstrate how to copy (duplicate) files and directories let's first create 
 
 Now let's make a copy of our index page. To make a copy we use the "cp" command followed by two arguments the first being the relative path of the file to be copied and the second argument is the relative path of where you would like the file to be copied to. For example if we wanted to simply copy the index file into the same folder we are in now we would type `cp index.html indexcopy.html`. Notice that using a keyboard space indicates a separation of one argument to the next.
 
+### Moving and Renaming Files and Directories
+
 WIP...
+
+
 
 ## Summary
 
