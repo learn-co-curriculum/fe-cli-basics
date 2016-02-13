@@ -44,7 +44,7 @@ Another useful ability is to be able to move about the file system by changing y
 
 Pressing the tab key will auto-complete the names of files and folders. For example if your wanted to change directpry into the dev folder you could type `cd d` then hit the tab key which should complete the name as `cd dev/`. Then you can press the return key to execute the command. If there are multiple files or folders with the same characters you might need to type out a little more of the filename to get it to work. If there is more than ne possible file with the same starting characters, on Mac hitting tab twice will display a list of possible files or folders that you might be refering to. Simply finish typing a few more of the characters and hit tab again to auto-complete the rest.
 
-### Creating New Directories
+### Creating Directories
 
 Another highly used command satisifies the ability to be able to create new directories (folders). To do so you use the command "mkdir" (mkdir meaning make directory) followed by the name of the directory such as `mkdir foldername`. For eample if you wanted to create a folder called "my-awesome-project" you would type: `mkdir my-awesome-project`. 
 
@@ -52,7 +52,7 @@ Another highly used command satisifies the ability to be able to create new dire
 
 It is worth noting that we didn't use any spaces in the filename from the exmaple above. In fact space will read as the creation of separate file names in the case of `mkdir my awesome project`. For this reason we always use hyphens `-` or underscores `_` in place of spaces in filenames or so-called camel case such as `myAwesomeProject`. If you absolutely insist on using spaces in filenames you can use the escape character `\` in front of any spaces such as: `mkdir my\ awesome\ project`. It is a best practice however to keep it simple and clean by using `-`, or `_`. Also pick a convention and stick with it. For me I always use hyphens. so I named my folder: `mkdir my-awesome-project`.
 
-### Creating
+### Creating Files
 
 Another high use command is the "touch" command for creating files. To remember this one I always think of Michelangelo's painting The Creation of Adam. This famous work shows God outstretching his arm reaching from the heavens and with his fingertip he creates the life of Adam. This command is as follows: "touch" followed by the "filename" such as: `touch filename`.
 
